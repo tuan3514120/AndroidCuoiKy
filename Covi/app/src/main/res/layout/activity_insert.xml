@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khai báo y tế"
+            android:fontFamily="@font/googlesans_bold"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_personn"
+        android:text="Họ và tên:"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtname"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:drawableStart="@drawable/ic_datee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Năm sinh:"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtday"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:drawableStart="@drawable/ic_genderr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Giới tính:"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtgender"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:drawableStart="@drawable/ic_locationn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Nơi cư trú:"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtaddress"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:drawableStart="@drawable/ic_phonee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại:"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtphone"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:drawableStart="@drawable/ic_statuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tình trạng hiện tại:"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtstatus"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
+            android:text="Xác nhận" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_delete_all"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_deletes"
+            android:text="Xóa tất cả"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtsearch"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:hint="Tìm kiếm theo tên..."
+    android:drawableStart="@drawable/ic_seacrh"
+    android:inputType="text"
+    android:imeOptions="actionSearch"
+    android:background="@drawable/search_bar"
+    android:padding="10dp"
+    android:textColor="@android:color/black"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_kbyt"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KhaiBaoYTe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    //Headings
+    <string name="heading_one">Top App được tải nhiều nhất trong năm</string>
+    <string name="heading_two">Tiện lợi và nhanh chóng</string>
+    <string name="heading_three">Không lo Tin giả</string>
+    <string name="heading_fourth">Tính bảo mật</string>
+
+    //Description
+    <string name="desc_one">Tính đến năm 2022 App đã nhận về 0 lượt tải xuống và sở hữu rất nhiều bug :D</string>
+    <string name="desc_two">Chỉ với một chiếc smartphone và ngồi ở nhà là bạn có thể nắm bắt toàn bộ thông tin về COVID-19 trong và ngoài nước</string>
+    <string name="desc_three">Toàn bộ nguồn tin được đăng tai trong app đều được xác thực và có độ tin cậy, chính xác cao</string>
+    <string name="desc_fourth">Bạn không cần phải lo lắng về vấn đề lộ thông tin, mọi thông tin đều được chúng tôi cam kết bảo mật tuyệt đối</string>
+</resources>

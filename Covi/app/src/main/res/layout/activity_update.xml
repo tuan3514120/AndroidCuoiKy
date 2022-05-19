@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật khai báo"
+            android:fontFamily="@font/googlesans_bold"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_personn"
+        android:text="Họ và tên:"
+            android:textColor="@color/white"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtname"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_datee"
+        android:text="Năm sinh:"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtday"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_genderr"
+        android:text="Giới tính:"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtgender"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_locationn"
+        android:text="Nơi cư trú:"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtaddress"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_phonee"
+        android:text="Số điện thoại:"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtphone"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_statuss"
+        android:text="Tình trạng hiện tại:"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+    <EditText
+        android:id="@+id/txtstatus"
+        android:background="@drawable/custom_input"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginVertical="5dp"
+        android:ems="20"/>
+
+        <Button
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_update"
+            android:textColor="@color/white"
+            android:text="Cập nhật" />
+
+
+</LinearLayout>
+</LinearLayout>
